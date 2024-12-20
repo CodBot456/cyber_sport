@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>form</title>
+</head>
+
+<body>
+    <form class="form container" action="#">
+        <div class="form_header">
+            <a class="form_back" href="index.html">
+                < </a>
+                    <p class="form_title">Заявка на вступление</p>
+        </div>
+        <div class="form_body">
+            <fieldset class="form_fields">
+                <legend>Ваш никнейм в реальной жизни</legend>
+                <input placeholder="Имя" class="form_input" type="text">
+                <input placeholder="Фамилия" class="form_input" type="text">
+            </fieldset>
+            <div class="form_test">
+                <p>выберите свой пол</p>
+                <div class="form_question">
+                    <input type="radio" id="male" name="drone" />
+                    <label for="male">М</label>
+                    <input type="radio" id="fmale" name="drone" />
+                    <label for="fmale">Ж</label>
+                </div>
+                <div class="form_question">
+                    <input type="checkbox" id="adult" />
+                    <label for="adult">Мне есть 18</label>
+                </div>
+                <div class="form_question">
+                    <label for="game-select">Ваша дисциплина</label>
+                    <select name="game" id="game">
+                        <option value="">-- Выберите игру --</option>
+                        <option value="CS:GO">CS:GO</option>
+                        <option value="Dota2">Dota2</option>
+                        <option value="Apex legends">Apex legends</option>
+                    </select>
+                </div>
+            </div>
+            <textarea class="form_textarea" name="" id="" placeholder="дополнительная информация"></textarea>
+            <button class="form_button" type="submit">Отправить заявку</button>
+        </div>
+    </form>
+</body>
+
+</html>
